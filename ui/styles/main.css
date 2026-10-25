@@ -1,1 +1,420 @@
-/* TODO: definir los estilos de la interfaz Streamlit. */
+/* ==========================================================================
+   Diseño Exacto Mockup PYME: Blanco luminoso, Turquesa, Azul Marino y Pasteles
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.stApp {
+    background-color: #f3f7fa !important;
+}
+
+/* Ocultar menús y barra lateral de Streamlit */
+#MainMenu {visibility: hidden;}
+header[data-testid="stHeader"] {display: none !important;}
+[data-testid="stToolbar"] {display: none !important;}
+[data-testid="stSidebar"] {display: none !important;}
+[data-testid="collapsedControl"] {display: none !important;}
+
+/* Contenedor principal ancho (estilo mockup) */
+.block-container {
+    padding-top: 1.5rem !important;
+    padding-bottom: 3.5rem !important;
+    max-width: 1180px !important;
+}
+
+/* --------------------------------------------------------------------------
+   1. HERO BANNER BLANCO CON ILUSTRACIÓN Y CHECKBOXES CREMA
+   -------------------------------------------------------------------------- */
+.mockup-hero {
+    background: linear-gradient(135deg, #ffffff 0%, #f4fbf9 60%, #edf6fc 100%);
+    border: 1px solid #e2eef5;
+    border-radius: 24px;
+    padding: 1.6rem 2.2rem;
+    box-shadow: 0 8px 28px rgba(19, 41, 75, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1.35rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.mockup-hero-left {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    flex: 1.4;
+}
+
+.mockup-shield-circle {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background: #d9f3ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.mockup-hero-title {
+    font-size: 2.05rem;
+    font-weight: 800;
+    color: #13294b;
+    line-height: 1.15;
+    margin: 0 0 0.45rem 0;
+    letter-spacing: -0.02em;
+}
+
+.mockup-hero-title span {
+    color: #1098ad;
+    display: block;
+}
+
+.mockup-hero-sub {
+    font-size: 0.98rem;
+    color: #4a607a;
+    margin: 0;
+    line-height: 1.45;
+    max-width: 450px;
+}
+
+.mockup-hero-art {
+    flex: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mockup-cream-box {
+    background: #fff9e6;
+    border: 1px solid #f7e8b5;
+    border-radius: 18px;
+    padding: 1rem 1.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    min-width: 195px;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.06);
+}
+
+.mockup-cream-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #1e3a5f;
+}
+
+.mockup-check-dot {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #10b981;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* --------------------------------------------------------------------------
+   2. STEPPER CON LÍNEA CONECTORA (PASO 1 DE 3, PASO 2 DE 3, PASO 3 DE 3)
+   -------------------------------------------------------------------------- */
+.mockup-stepper-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.mockup-step-card {
+    flex: 1;
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 18px;
+    padding: 0.95rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 14px rgba(19, 41, 75, 0.04);
+    z-index: 2;
+}
+
+.mockup-step-card.active {
+    background: linear-gradient(90deg, #0b8a83 0%, #1098ad 100%);
+    border-color: transparent;
+    box-shadow: 0 8px 20px rgba(16, 152, 173, 0.24);
+}
+
+.mockup-step-left {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.mockup-step-num {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #edf2f7;
+    color: #4a607a;
+    font-size: 1.15rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.mockup-step-card.active .mockup-step-num {
+    background: #ffffff;
+    color: #0b8a83;
+}
+
+.mockup-step-small {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #64748b;
+    margin-bottom: 0.1rem;
+}
+
+.mockup-step-card.active .mockup-step-small {
+    color: #d9f3ee;
+}
+
+.mockup-step-big {
+    font-size: 1.02rem;
+    font-weight: 800;
+    color: #13294b;
+}
+
+.mockup-step-card.active .mockup-step-big {
+    color: #ffffff;
+}
+
+.mockup-step-arrow {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #64748b;
+}
+
+.mockup-step-card.active .mockup-step-arrow {
+    color: #ffffff;
+}
+
+.mockup-connector {
+    width: 32px;
+    height: 2px;
+    background: #cbd5e1;
+    flex-shrink: 0;
+}
+
+/* --------------------------------------------------------------------------
+   3. BARRA DE 5 TARJETAS DE TEMAS (Tu rubro, Compus y celus, etc.)
+   -------------------------------------------------------------------------- */
+.mockup-topics-bar {
+    background: #f8fbfd;
+    border: 1px solid #e6eff5;
+    border-radius: 20px;
+    padding: 0.75rem 0.9rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.mockup-topic-card {
+    background: #ffffff;
+    border: 1.5px solid #e6eff5;
+    border-radius: 14px;
+    padding: 0.65rem 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    box-shadow: 0 2px 6px rgba(19, 41, 75, 0.02);
+}
+
+.mockup-topic-card.current {
+    background: #e6f8f5;
+    border: 1.5px solid #63d2be;
+}
+
+.mockup-topic-card.done {
+    background: #f0fdf4;
+    border: 1.5px solid #86efac;
+}
+
+.mockup-topic-icon {
+    font-size: 1.45rem;
+    line-height: 1;
+}
+
+.mockup-topic-meta {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.mockup-topic-now {
+    font-size: 0.73rem;
+    font-weight: 700;
+    color: #0b8a83;
+}
+
+.mockup-topic-name {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #13294b;
+}
+
+/* --------------------------------------------------------------------------
+   4. TARJETA BLANCA PRINCIPAL DE LA PREGUNTA
+   -------------------------------------------------------------------------- */
+.mockup-question-box {
+    background: #ffffff;
+    border: 1.5px solid #e2eef5;
+    border-radius: 24px;
+    padding: 1.9rem 2.2rem 1.4rem 2.2rem;
+    box-shadow: 0 10px 30px rgba(19, 41, 75, 0.04);
+    margin-bottom: 1rem;
+}
+
+.mockup-q-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: #3b82f6;
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.35rem 0.95rem;
+    border-radius: 999px;
+    margin-bottom: 1.1rem;
+}
+
+.mockup-hola {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #13294b;
+    margin: 0 0 0.4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.mockup-hola-rays {
+    color: #1098ad;
+    font-size: 1.6rem;
+}
+
+.mockup-intro-text {
+    font-size: 1.05rem;
+    color: #334e68;
+    margin: 0 0 0.85rem 0;
+    line-height: 1.55;
+}
+
+.mockup-bold-question {
+    font-size: 1.18rem;
+    font-weight: 800;
+    color: #13294b;
+    margin: 0;
+    line-height: 1.45;
+}
+
+/* --------------------------------------------------------------------------
+   5. BOTONES DE OPCIÓN ESTILO PASTEL (5 COLUMNAS DEL MOCKUP)
+   -------------------------------------------------------------------------- */
+div[data-testid="stHorizontalBlock"] .stButton > button {
+    border-radius: 16px !important;
+    padding: 0.85rem 1rem !important;
+    font-weight: 800 !important;
+    font-size: 0.92rem !important;
+    min-height: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    box-shadow: 0 3px 10px rgba(19, 41, 75, 0.04) !important;
+    transition: all 0.18s ease !important;
+}
+
+/* Colores pastel por columna para las 5 tarjetas de respuesta */
+div[data-testid="stHorizontalBlock"] > div:nth-child(1) .stButton > button {
+    background-color: #e3f7ec !important;
+    border: 1.5px solid #b7ebd0 !important;
+    color: #0b6e4f !important;
+}
+div[data-testid="stHorizontalBlock"] > div:nth-child(2) .stButton > button {
+    background-color: #e3f1fc !important;
+    border: 1.5px solid #b6dcfb !important;
+    color: #154c8a !important;
+}
+div[data-testid="stHorizontalBlock"] > div:nth-child(3) .stButton > button {
+    background-color: #f4e6fb !important;
+    border: 1.5px solid #e0bdf3 !important;
+    color: #6b21a8 !important;
+}
+div[data-testid="stHorizontalBlock"] > div:nth-child(4) .stButton > button {
+    background-color: #fef3d6 !important;
+    border: 1.5px solid #fae09e !important;
+    color: #854d0e !important;
+}
+div[data-testid="stHorizontalBlock"] > div:nth-child(5) .stButton > button {
+    background-color: #eaeff5 !important;
+    border: 1.5px solid #cbd5e1 !important;
+    color: #1e293b !important;
+}
+
+div[data-testid="stHorizontalBlock"] .stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(19, 41, 75, 0.1) !important;
+}
+
+/* Botón primario turquesa */
+.stButton > button[kind="primary"] {
+    background: linear-gradient(90deg, #0b8a83 0%, #1098ad 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 14px !important;
+    font-weight: 800 !important;
+    padding: 0.75rem 1.4rem !important;
+    box-shadow: 0 6px 18px rgba(16, 152, 173, 0.25) !important;
+}
+
+/* Tarjetas para el Paso 2 y 3 */
+.pastel-card-green {
+    background: #e3f7ec;
+    border: 1.5px solid #b7ebd0;
+    border-radius: 18px;
+    padding: 1.25rem;
+    color: #0b6e4f;
+    height: 100%;
+}
+.pastel-card-blue {
+    background: #e3f1fc;
+    border: 1.5px solid #b6dcfb;
+    border-radius: 18px;
+    padding: 1.25rem;
+    color: #154c8a;
+    height: 100%;
+}
+.pastel-card-amber {
+    background: #fef3d6;
+    border: 1.5px solid #fae09e;
+    border-radius: 18px;
+    padding: 1.25rem;
+    color: #854d0e;
+    height: 100%;
+}
