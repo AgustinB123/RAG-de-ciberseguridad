@@ -1,0 +1,70 @@
+🛡️ Auditor de Ciberseguridad para PYMES
+Hola. Soy tu consultor virtual. Contame sobre tu empresa y te haré las preguntas necesarias.
+
+¡Hola! Para arrancar, contame: ¿A qué se dedica tu empresa, cuántos empleados tienen y qué herramientas usan?
+
+tengo un alquiler de camiones, tengo 10 personas, usamos un gestor de stock y un gestor de pagos. ademas de un dispositivo que controla la ubniacion de cada camión y nos muestra donde esta el camión. esto no lo saben los que alquilan nuestros cmaiuones
+
+Entendido. ¿Tienen establecidas políticas o procedimientos específicos para gestionar la seguridad de la información en su empresa?
+
+no no tenemos planes ni políticas, no hay manuales ni nada
+
+Entendido. ¿Realizan algún tipo de monitoreo o vigilancia continua sobre los sistemas y redes para detectar actividades sospechosas?
+
+no realizamos monitoreos o vigilancias de bnada
+
+Entendido. ¿Tienen un plan de respuesta a incidentes definido que describa qué hacer en caso de un ataque cibernético o pérdida de datos?
+
+no no tenemos plan de respuestas a nada
+
+Entendido. ¿Realizan copias de seguridad regulares de los datos importantes y críticos para su negocio?
+
+no solo tenemos un excel donde se va descargando todo lo que pasa sobre los registros de los vehículos, las compras los pagos, y demas. pero no de las personas que entran y miran ni de quien tiene acceso y quien no
+
+Entendido. ¿Brindan algún tipo de capacitación o formación a sus empleados sobre ciberseguridad y buenas prácticas en el manejo de información?
+
+no no brindamos ningún tipo de capacitación ni buenas prácticas
+
+Entendido. ¿Trabajan con proveedores o terceros que acceden a sus sistemas o datos sensibles?
+
+si el provedor que nos ache los sistemas es un programador externo, se llama Juan, es externa. nosotros le pagamos cada vez que encimaos una mejroa
+
+Entendido. ¿Cómo gestionan las contraseñas y el acceso a sus sistemas para asegurar que solo los usuarios autorizados puedan acceder?
+
+existe una sola contraseña;a y las tenemos todos, las maquinas se ocupan solo las que esta en la oficona
+
+Entendido. ¿Qué medidas toman para proteger físicamente los dispositivos y equipos utilizados en su negocio?
+
+ninguna, estan en las oficinas, pero cuando nos vamos cerraos todo con llave
+
+Entendido. ¿Realizan algún tipo de evaluación o auditoría de seguridad periódica para identificar vulnerabilidades y mejorar la protección de sus sistemas?
+
+no hacemos anda de eso
+
+Entendido. Realizar una evaluación o auditoría de seguridad puede ser muy útil para identificar áreas de mejora en su ciberseguridad.
+
+¿Tienen un registro detallado de todos los dispositivos (computadoras, celulares, GPS) y quién los usa?
+
+si tenemos dos computadoras y los gis son 12 uno para cada vehículo ue tenemos, los usamos todos
+
+Entendido. ¿Tienen un registro detallado de todos los dispositivos (computadoras, GPS) y quién los usa?
+
+si tenemos dos computadores y 12 gas, y los usamos todos sin problemas.
+
+Entendido. Realizar una evaluación o auditoría de seguridad puede ser muy útil para identificar áreas de mejora en su ciberseguridad.
+
+¿Hacen copias de seguridad (backups) de los datos de los clientes y de los camiones? ¿Cada cuánto?
+
+si, como le dije se carga todo en un excel gigante con cada transacción y otro con cada cliente que nuevo con sus datos y que hace que compre y que alquilo. se actualiza cada dia.
+
+Entendido. ¿Brindan algún tipo de capacitación o formación a sus empleados sobre ciberseguridad y buenas prácticas en el manejo de información?
+
+no no hya capcitaciones
+
+Entendido. No realizan capacitaciones.
+
+¿Los empleados recibieron alguna capacitación sobre cómo detectar correos falsos (phishing) o estafas?
+
+no no reviviebron
+
+Entendido. Ya se puede generar el informe.
