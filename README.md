@@ -73,7 +73,7 @@ Se necesita:
 Descargar los modelos locales:
 
 ```bash
-ollama pull llama3.1
+ollama pull qwen2.5:7b
 ollama pull nomic-embed-text
 ```
 
@@ -105,7 +105,7 @@ Las variables principales son:
 | Variable          | Valor por defecto        | Descripción                              |
 | ----------------- | ------------------------ | ---------------------------------------- |
 | `OLLAMA_BASE_URL` | `http://localhost:11434` | URL del servicio Ollama                  |
-| `LLM_MODEL`       | `llama3.1`               | Modelo utilizado para generar respuestas |
+| `LLM_MODEL`       | `qwen2.5:7b`             | Modelo utilizado para generar respuestas |
 | `EMBEDDING_MODEL` | `nomic-embed-text`       | Modelo utilizado para embeddings         |
 | `CHROMA_PATH`     | `./chroma_db`            | Ubicación persistente de ChromaDB        |
 
