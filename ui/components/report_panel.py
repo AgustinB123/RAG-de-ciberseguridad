@@ -1,0 +1,1 @@
+# TODO: implementar el panel de visualización y descarga del informe.

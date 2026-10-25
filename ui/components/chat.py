@@ -1,0 +1,1 @@
+# TODO: implementar el componente de chat con el pipeline RAG.

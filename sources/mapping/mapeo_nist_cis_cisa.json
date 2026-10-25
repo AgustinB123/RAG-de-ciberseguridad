@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "Mapeo NIST CSF 2.0 → CIS Controls IG1 → CISA Cyber Essentials",
+    "description": "Tabla de mapeo para el modelo de ciberseguridad para PYMES del Chaco basado en NIST CSF 2.0, CIS Controls IG1 y CISA Cyber Essentials.",
+    "source": "Elaboración propia a partir de NIST (2024), CIS (2024) y CISA (2021)",
+    "version": "1.0",
+    "fecha": "2026-09",
+    "idioma": "es"
+  },
+  "mapeo": [
+    {
+      "funcion_nist": "Gobernar (GV)",
+      "control_cis": "CIS 5.1: Inventario de cuentas",
+      "elemento_cisa": "Usted (Líder)",
+      "accion_pyme": "Designar un responsable de seguridad (aunque sea con dedicación parcial)."
+    },
+    {
+      "funcion_nist": "Gobernar (GV)",
+      "control_cis": "CIS 6.1: Proceso de concesión de acceso",
+      "elemento_cisa": "Usted (Líder)",
+      "accion_pyme": "Documentar quién tiene acceso a qué y por qué."
+    },
+    {
+      "funcion_nist": "Gobernar (GV)",
+      "control_cis": "CIS 17.3: Proceso de reporte de incidentes",
+      "elemento_cisa": "Crisis",
+      "accion_pyme": "Definir a quién reportar un incidente (interno y externo)."
+    },
+    {
+      "funcion_nist": "Identificar (ID)",
+      "control_cis": "CIS 1.1: Inventario de hardware",
+      "elemento_cisa": "Sistemas",
+      "accion_pyme": "Listar todos los dispositivos (PCs, celulares, routers)."
+    },
+    {
+      "funcion_nist": "Identificar (ID)",
+      "control_cis": "CIS 2.1: Inventario de software",
+      "elemento_cisa": "Sistemas",
+      "accion_pyme": "Listar todo el software instalado y sus versiones."
+    },
+    {
+      "funcion_nist": "Proteger (PR)",
+      "control_cis": "CIS 6.3: MFA para aplicaciones externas",
+      "elemento_cisa": "Personal",
+      "accion_pyme": "Exigir MFA en correo, redes sociales y sistemas críticos."
+    },
+    {
+      "funcion_nist": "Proteger (PR)",
+      "control_cis": "CIS 11.2: Backups automáticos",
+      "elemento_cisa": "Datos",
+      "accion_pyme": "Configurar backups automáticos diarios (ej. Google Drive, OneDrive)."
+    },
+    {
+      "funcion_nist": "Proteger (PR)",
+      "control_cis": "CIS 4.5: Firewall en dispositivos",
+      "elemento_cisa": "Sistemas",
+      "accion_pyme": "Activar firewall en todos los equipos y routers."
+    },
+    {
+      "funcion_nist": "Proteger (PR)",
+      "control_cis": "CIS 14.2: Capacitación en ingeniería social",
+      "elemento_cisa": "Personal",
+      "accion_pyme": "Realizar charlas anuales de phishing y concientización."
+    },
+    {
+      "funcion_nist": "Detectar (DE)",
+      "control_cis": "CIS 8.2: Recopilar logs de auditoría",
+      "elemento_cisa": "Entorno",
+      "accion_pyme": "Centralizar logs (ej. con herramientas gratuitas)."
+    },
+    {
+      "funcion_nist": "Detectar (DE)",
+      "control_cis": "CIS 13.6: Monitoreo de tráfico de red",
+      "elemento_cisa": "Sistemas",
+      "accion_pyme": "Usar herramientas de monitoreo (ej. Wazuh, Snort)."
+    },
+    {
+      "funcion_nist": "Responder (RS)",
+      "control_cis": "CIS 17.4: Plan de respuesta a incidentes",
+      "elemento_cisa": "Crisis",
+      "accion_pyme": "Crear un plan simple de 5 pasos (Contener, Erradicar, Recuperar, Aprender)."
+    },
+    {
+      "funcion_nist": "Responder (RS)",
+      "control_cis": "CIS 17.1: Designar personal para incidentes",
+      "elemento_cisa": "Crisis",
+      "accion_pyme": "Asignar un encargado de coordinar la respuesta."
+    },
+    {
+      "funcion_nist": "Recuperar (RC)",
+      "control_cis": "CIS 11.1: Proceso de recuperación de datos",
+      "elemento_cisa": "Datos",
+      "accion_pyme": "Probar la restauración de backups cada 3 meses."
+    },
+    {
+      "funcion_nist": "Recuperar (RC)",
+      "control_cis": "CIS 11.3: Proteger datos de recuperación",
+      "elemento_cisa": "Datos",
+      "accion_pyme": "Cifrar los backups y almacenarlos en un lugar seguro."
+    }
+  ]
+}

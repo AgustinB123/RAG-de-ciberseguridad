@@ -1,0 +1,7 @@
+# TODO: revisar exclusiones del entorno y de datos generados.
+.venv/
+chroma_db/
+outputs/
+__pycache__/
+.env
+data/chat_history/

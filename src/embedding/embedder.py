@@ -1,0 +1,1 @@
+# TODO: implementar embeddings con Nomic Embed Text vía Ollama.

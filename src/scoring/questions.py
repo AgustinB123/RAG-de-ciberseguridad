@@ -1,0 +1,1 @@
+# TODO: definir las preguntas del diagnóstico para PYMES.

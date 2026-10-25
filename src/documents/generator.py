@@ -1,0 +1,1 @@
+# TODO: generar informes con reportlab y python-docx.

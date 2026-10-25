@@ -1,0 +1,1 @@
+# TODO: validar respuestas, fuentes y recomendaciones del pipeline.
